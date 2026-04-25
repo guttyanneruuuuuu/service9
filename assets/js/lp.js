@@ -37,7 +37,7 @@
       el('p', { class: 'sub', text: 'Xは時系列で思考を流す。Instagramは画像を並べる。ThoughtSpaceは、あなたの思考を「点」ではなく「星」として宇宙に配置する、まったく新しいSNSです。' }),
       el('div', { class: 'hero-cta' }, [
         el('a', { class: 'cta-big', attrs: { href: '#/app' }, text: '✨ 自分の宇宙を作る' }),
-        el('a', { class: 'cta-ghost', attrs: { href: '#/app?demo=1' }, text: '🌌 サンプル宇宙を見る' })
+        el('a', { class: 'cta-ghost', attrs: { href: '#/u/eyJ2IjoxLCJuIjoiV2VsY29tZSB0byBUaG91Z2h0U3BhY2UiLCJhIjoiVGhvdWdodFNwYWNlIiwiYiI6IkEgc2FtcGxlIHVuaXZlcnNlIHRvIGV4cGxvcmUiLCJjIjoiIzdjNWNmZiIsIk4iOlt7ImkiOiJuMSIsIngiOjAsInkiOi0xODAsInQiOiJJZGVhIiwiYyI6IiM3YzVjZmYiLCJzIjoic3RhciIsInoiOjgwfSx7ImkiOiJuMiIsIngiOi0yMjAsInkiOjQwLCJ0IjoiUHJvamVjdCIsImMiOiIjMDBlNmZmIiwicyI6InBsYW5ldCIsInoiOjgwfSx7ImkiOiJuMyIsIngiOjIyMCwieSI6NDAsInQiOiJGZWVsaW5nIiwiYyI6IiNmZjRmYTMiLCJzIjoibmVidWxhIiwieiI6OTB9LHsiaSI6Im40IiwieCI6MCwieSI6MjQwLCJ0IjoiTm90ZSIsImMiOiIjZmJiZjI0IiwicyI6Im5vdGUiLCJ6Ijo3MH0seyJpIjoibjUiLCJ4IjotMzYwLCJ5IjotMTIwLCJ0IjoiQ3VyaW9zaXR5IiwiYyI6IiNhNzhiZmEiLCJzIjoic3RhciIsInoiOjYwfSx7ImkiOiJuNiIsIngiOjM2MCwieSI6LTEyMCwidCI6IkRyZWFtIiwiYyI6IiM0YWRlODAiLCJzIjoic3RhciIsInoiOjYwfV0sIkUiOlt7ImkiOiJlMSIsImYiOiJuMSIsInQiOiJuMiIsImsiOiJub3JtYWwifSx7ImkiOiJlMiIsImYiOiJuMSIsInQiOiJuMyIsImsiOiJub3JtYWwifSx7ImkiOiJlMyIsImYiOiJuMiIsInQiOiJuNCIsImsiOiJub3JtYWwifSx7ImkiOiJlNCIsImYiOiJuMyIsInQiOiJuNCIsImsiOiJub3JtYWwifSx7ImkiOiJlNSIsImYiOiJuNSIsInQiOiJuMSIsImsiOiJ3b3JtaG9sZSJ9LHsiaSI6ImU2IiwiZiI6Im42IiwidCI6Im4xIiwiayI6Indvcm1ob2xlIn1dfQ' }, text: '🌌 サンプル宇宙を見る' })
       ]),
       el('div', { class: 'hero-stats' }, [
         statBlock('∞', 'NODES'),
