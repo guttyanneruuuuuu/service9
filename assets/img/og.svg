@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#221a4a"/>
+      <stop offset="60%" stop-color="#0c0e1a"/>
+      <stop offset="100%" stop-color="#06070d"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="40%" stop-color="#00e6ff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.5" stop-color="#c4b8ff"/>
+      <stop offset="1" stop-color="#00e6ff"/>
+    </linearGradient>
+    <linearGradient id="worm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="0.5" stop-color="#00e6ff"/>
+      <stop offset="1" stop-color="#ff4fa3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#fff">
+    <circle cx="120" cy="80" r="1.6"/>
+    <circle cx="280" cy="180" r="1.2"/>
+    <circle cx="640" cy="60" r="2"/>
+    <circle cx="960" cy="120" r="1.5"/>
+    <circle cx="1100" cy="220" r="1.2"/>
+    <circle cx="180" cy="360" r="1.5"/>
+    <circle cx="80" cy="500" r="1.2"/>
+    <circle cx="350" cy="540" r="1"/>
+    <circle cx="900" cy="500" r="1.4"/>
+    <circle cx="1080" cy="540" r="1.6"/>
+    <circle cx="780" cy="380" r="1.1"/>
+    <circle cx="540" cy="80" r="1"/>
+    <circle cx="1150" cy="80" r="1.2"/>
+    <circle cx="40" cy="240" r="1.1"/>
+  </g>
+  <!-- nodes + edges (small constellation) -->
+  <g stroke="url(#worm)" stroke-width="3" fill="none" stroke-dasharray="4 6" opacity="0.85">
+    <line x1="900" y1="180" x2="1020" y2="280"/>
+    <line x1="900" y1="180" x2="780" y2="260"/>
+    <line x1="780" y1="260" x2="900" y2="380"/>
+    <line x1="900" y1="380" x2="1020" y2="280"/>
+    <line x1="900" y1="180" x2="900" y2="380"/>
+  </g>
+  <g>
+    <circle cx="900" cy="180" r="38" fill="url(#planet)"/>
+    <circle cx="1020" cy="280" r="26" fill="#ff4fa3"/>
+    <circle cx="780" cy="260" r="22" fill="#fbbf24"/>
+    <circle cx="900" cy="380" r="30" fill="#4ade80"/>
+  </g>
+  <!-- text -->
+  <g font-family="Inter, Noto Sans JP, sans-serif">
+    <text x="80" y="280" font-size="84" font-weight="800" fill="url(#title)">あなたの思考を、</text>
+    <text x="80" y="380" font-size="84" font-weight="800" fill="url(#title)">宇宙にする。</text>
+    <text x="80" y="450" font-size="28" font-weight="500" fill="#c8cae0">ThoughtSpace — 次世代SNS。思考を点ではなく星として配置する。</text>
+    <text x="80" y="558" font-size="22" font-weight="600" fill="#7c5cff">thoughtspace.app</text>
+  </g>
+  <!-- logo -->
+  <g transform="translate(80, 80)">
+    <circle r="24" fill="url(#planet)"/>
+    <text x="40" y="9" font-size="28" font-weight="700" fill="#fff" font-family="Inter, sans-serif">ThoughtSpace</text>
+  </g>
+</svg>

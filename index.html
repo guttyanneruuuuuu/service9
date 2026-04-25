@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+<meta name="theme-color" content="#06070d" />
+<title>ThoughtSpace — あなたの思考を、宇宙にする。</title>
+<meta name="description" content="ThoughtSpaceは、あなたの思考を「点」ではなく「星」として宇宙に配置する次世代SNS。マインドマップとSNSが融合した、まったく新しい思考の可視化プラットフォーム。" />
+<meta name="keywords" content="ThoughtSpace, 思考, SNS, マインドマップ, アイデア, 創造, 高校生, 起業" />
+<meta name="author" content="ThoughtSpace" />
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ThoughtSpace — あなたの思考を、宇宙にする。" />
+<meta property="og:description" content="X(Twitter)が時系列で思考を流すなら、ThoughtSpaceは思考を空間に配置する。マインドマップ × SNSの新フォーマット。" />
+<meta property="og:image" content="./assets/img/og.svg" />
+<meta property="og:url" content="https://guttyanneruuuuuu.github.io/service9/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ThoughtSpace — あなたの思考を、宇宙にする。" />
+<meta name="twitter:description" content="思考を点ではなく星として配置する、新時代のSNS。" />
+<meta name="twitter:image" content="./assets/img/og.svg" />
+
+<!-- Security: CSP (strict-ish but allows inline because we use it for cssvars) -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src 'self' https://fonts.gstatic.com data:;
+  img-src 'self' data: blob:;
+  connect-src 'self';
+  base-uri 'self';
+  form-action 'self';
+  object-src 'none';
+">
+<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+<link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+<link rel="apple-touch-icon" href="./assets/img/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+<!-- ===== Splash ===== -->
+<div id="splash" class="splash">
+  <div class="ring"></div>
+  <p>Entering ThoughtSpace</p>
+</div>
+
+<!-- ===== Background starfield ===== -->
+<canvas id="stars-canvas" aria-hidden="true"></canvas>
+
+<!-- ===== Toasts ===== -->
+<div id="toast-area" class="toast-area" aria-live="polite"></div>
+
+<!-- ===== Page mount points ===== -->
+<main id="page-lp"></main>
+<main id="page-app" class="hidden"></main>
+<main id="page-viewer" class="hidden"></main>
+<main id="page-404" class="hidden"></main>
+
+<!-- ===== Modals mount ===== -->
+<div id="modal-mount"></div>
+
+<script src="./assets/js/security.js"></script>
+<script src="./assets/js/storage.js"></script>
+<script src="./assets/js/share.js"></script>
+<script src="./assets/js/analytics.js"></script>
+<script src="./assets/js/stars.js"></script>
+<script src="./assets/js/lp.js"></script>
+<script src="./assets/js/editor.js"></script>
+<script src="./assets/js/viewer.js"></script>
+<script src="./assets/js/router.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
